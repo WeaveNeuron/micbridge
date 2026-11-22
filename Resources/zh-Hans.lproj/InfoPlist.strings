@@ -1,0 +1,2 @@
+"NSLocalNetworkUsageDescription" = "MicBridge 通过加密的局域网连接你的两台 Mac。";
+"NSMicrophoneUsageDescription" = "只在另一台 Mac 上有应用收音时打开麦克风，结束即关闭。不录音，也不保存任何声音。";

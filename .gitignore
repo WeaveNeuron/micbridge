@@ -1,0 +1,13 @@
+# Build products
+*.app/
+# Local backups, test output and internal release notes
+.baseline-*/
+/discovery-test.txt
+/self-test.txt
+/本次改进与验证.txt
+docs/release-*/
+.DS_Store
+# Rendered UI previews (MicBridge --render-previews)
+previews/
+# Packages (build.sh --package)
+/build/

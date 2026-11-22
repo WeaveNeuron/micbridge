@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- build.sh fills in __SHORT_VERSION__ and __BUILD_NUMBER__ from bundledDriverVersion (Source/Domain/DriverStatus.swift). -->
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>com.weaveneuron.MicBridge.Microphone</string>
+<key>CFBundleName</key><string>MicBridge Microphone</string>
+<key>CFBundleExecutable</key><string>MicBridgeMicrophone</string>
+<key>CFBundlePackageType</key><string>BNDL</string>
+<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+<key>CFBundleDevelopmentRegion</key><string>en</string>
+<key>CFBundleShortVersionString</key><string>__SHORT_VERSION__</string>
+<key>CFBundleVersion</key><string>__BUILD_NUMBER__</string>
+<key>LSMinimumSystemVersion</key><string>15.0</string>
+<key>CFPlugInDynamicRegistration</key><string>NO</string>
+<key>CFPlugInFactories</key>
+<dict>
+  <key>37A2B8F4-20C4-4BB6-823D-5AD4733BA3DB</key><string>MicBridge_Create</string>
+</dict>
+<key>CFPlugInTypes</key>
+<dict>
+  <!-- kAudioServerPlugInTypeUUID -->
+  <key>443ABAB8-E7B3-491A-B985-BEB9187030DB</key>
+  <array><string>37A2B8F4-20C4-4BB6-823D-5AD4733BA3DB</string></array>
+</dict>
+</dict></plist>

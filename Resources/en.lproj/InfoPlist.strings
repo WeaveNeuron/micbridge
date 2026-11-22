@@ -1,0 +1,2 @@
+"NSLocalNetworkUsageDescription" = "MicBridge connects your two Macs over an encrypted local network link.";
+"NSMicrophoneUsageDescription" = "MicBridge turns on the microphone only while an app on your other Mac is listening, and turns it off right after. Nothing is recorded or saved.";
